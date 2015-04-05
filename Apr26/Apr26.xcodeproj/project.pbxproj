@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAFB76D154632810035D0F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAFB76C154632810035D0F7 /* UIKit.framework */; };
+		3CAFB76F154632810035D0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAFB76E154632810035D0F7 /* Foundation.framework */; };
+		3CAFB771154632810035D0F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAFB770154632810035D0F7 /* CoreGraphics.framework */; };
+		3CAFB777154632810035D0F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB775154632810035D0F7 /* InfoPlist.strings */; };
+		3CAFB779154632810035D0F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFB778154632810035D0F7 /* main.m */; };
+		3CAFB77D154632810035D0F7 /* Apr26AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFB77C154632810035D0F7 /* Apr26AppDelegate.m */; };
+		3CAFB78B15464DFB0035D0F7 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAFB78A15464DFB0035D0F7 /* View.m */; };
+		3CAFB78D15464FAE0035D0F7 /* sexy_knowit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB78C15464FAE0035D0F7 /* sexy_knowit.mp3 */; };
+		3CAFB78F154650240035D0F7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAFB78E154650240035D0F7 /* AudioToolbox.framework */; };
+		3CAFB79A1547A4A10035D0F7 /* challenge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7901547A4A10035D0F7 /* challenge.mp3 */; };
+		3CAFB79B1547A4A10035D0F7 /* developers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7911547A4A10035D0F7 /* developers.mp3 */; };
+		3CAFB79C1547A4A10035D0F7 /* epic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7921547A4A10035D0F7 /* epic.mp3 */; };
+		3CAFB79D1547A4A10035D0F7 /* epicsaxguy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7931547A4A10035D0F7 /* epicsaxguy.mp3 */; };
+		3CAFB79E1547A4A10035D0F7 /* inetporn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7941547A4A10035D0F7 /* inetporn.mp3 */; };
+		3CAFB79F1547A4A10035D0F7 /* khaaan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7951547A4A10035D0F7 /* khaaan.mp3 */; };
+		3CAFB7A01547A4A10035D0F7 /* macstartup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7961547A4A10035D0F7 /* macstartup.mp3 */; };
+		3CAFB7A11547A4A10035D0F7 /* nooo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7971547A4A10035D0F7 /* nooo.mp3 */; };
+		3CAFB7A21547A4A10035D0F7 /* sadtrombone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CAFB7981547A4A10035D0F7 /* sadtrombone.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CAFB768154632810035D0F7 /* Apr26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apr26.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAFB76C154632810035D0F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CAFB76E154632810035D0F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CAFB770154632810035D0F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CAFB774154632810035D0F7 /* Apr26-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apr26-Info.plist"; sourceTree = "<group>"; };
+		3CAFB776154632810035D0F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CAFB778154632810035D0F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAFB77A154632810035D0F7 /* Apr26-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apr26-Prefix.pch"; sourceTree = "<group>"; };
+		3CAFB77B154632810035D0F7 /* Apr26AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apr26AppDelegate.h; sourceTree = "<group>"; };
+		3CAFB77C154632810035D0F7 /* Apr26AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apr26AppDelegate.m; sourceTree = "<group>"; };
+		3CAFB78715464B2F0035D0F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3CAFB78915464DFB0035D0F7 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		3CAFB78A15464DFB0035D0F7 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		3CAFB78C15464FAE0035D0F7 /* sexy_knowit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sexy_knowit.mp3; sourceTree = "<group>"; };
+		3CAFB78E154650240035D0F7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3CAFB7901547A4A10035D0F7 /* challenge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = challenge.mp3; sourceTree = "<group>"; };
+		3CAFB7911547A4A10035D0F7 /* developers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = developers.mp3; sourceTree = "<group>"; };
+		3CAFB7921547A4A10035D0F7 /* epic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = epic.mp3; sourceTree = "<group>"; };
+		3CAFB7931547A4A10035D0F7 /* epicsaxguy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = epicsaxguy.mp3; sourceTree = "<group>"; };
+		3CAFB7941547A4A10035D0F7 /* inetporn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inetporn.mp3; sourceTree = "<group>"; };
+		3CAFB7951547A4A10035D0F7 /* khaaan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = khaaan.mp3; sourceTree = "<group>"; };
+		3CAFB7961547A4A10035D0F7 /* macstartup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macstartup.mp3; sourceTree = "<group>"; };
+		3CAFB7971547A4A10035D0F7 /* nooo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nooo.mp3; sourceTree = "<group>"; };
+		3CAFB7981547A4A10035D0F7 /* sadtrombone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sadtrombone.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAFB765154632810035D0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAFB78F154650240035D0F7 /* AudioToolbox.framework in Frameworks */,
+				3CAFB76D154632810035D0F7 /* UIKit.framework in Frameworks */,
+				3CAFB76F154632810035D0F7 /* Foundation.framework in Frameworks */,
+				3CAFB771154632810035D0F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAFB75D154632800035D0F7 = {
+			isa = PBXGroup;
+			children = (
+				3CAFB772154632810035D0F7 /* Apr26 */,
+				3CAFB76B154632810035D0F7 /* Frameworks */,
+				3CAFB769154632810035D0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAFB769154632810035D0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAFB768154632810035D0F7 /* Apr26.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAFB76B154632810035D0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CAFB78E154650240035D0F7 /* AudioToolbox.framework */,
+				3CAFB78715464B2F0035D0F7 /* AVFoundation.framework */,
+				3CAFB76C154632810035D0F7 /* UIKit.framework */,
+				3CAFB76E154632810035D0F7 /* Foundation.framework */,
+				3CAFB770154632810035D0F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CAFB772154632810035D0F7 /* Apr26 */ = {
+			isa = PBXGroup;
+			children = (
+				3CAFB77B154632810035D0F7 /* Apr26AppDelegate.h */,
+				3CAFB77C154632810035D0F7 /* Apr26AppDelegate.m */,
+				3CAFB78915464DFB0035D0F7 /* View.h */,
+				3CAFB78A15464DFB0035D0F7 /* View.m */,
+				3CAFB773154632810035D0F7 /* Supporting Files */,
+			);
+			path = Apr26;
+			sourceTree = "<group>";
+		};
+		3CAFB773154632810035D0F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAFB7901547A4A10035D0F7 /* challenge.mp3 */,
+				3CAFB7911547A4A10035D0F7 /* developers.mp3 */,
+				3CAFB7921547A4A10035D0F7 /* epic.mp3 */,
+				3CAFB7931547A4A10035D0F7 /* epicsaxguy.mp3 */,
+				3CAFB7941547A4A10035D0F7 /* inetporn.mp3 */,
+				3CAFB7951547A4A10035D0F7 /* khaaan.mp3 */,
+				3CAFB7961547A4A10035D0F7 /* macstartup.mp3 */,
+				3CAFB7971547A4A10035D0F7 /* nooo.mp3 */,
+				3CAFB7981547A4A10035D0F7 /* sadtrombone.mp3 */,
+				3CAFB78C15464FAE0035D0F7 /* sexy_knowit.mp3 */,
+				3CAFB774154632810035D0F7 /* Apr26-Info.plist */,
+				3CAFB775154632810035D0F7 /* InfoPlist.strings */,
+				3CAFB778154632810035D0F7 /* main.m */,
+				3CAFB77A154632810035D0F7 /* Apr26-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAFB767154632810035D0F7 /* Apr26 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAFB780154632810035D0F7 /* Build configuration list for PBXNativeTarget "Apr26" */;
+			buildPhases = (
+				3CAFB764154632810035D0F7 /* Sources */,
+				3CAFB765154632810035D0F7 /* Frameworks */,
+				3CAFB766154632810035D0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apr26;
+			productName = Apr26;
+			productReference = 3CAFB768154632810035D0F7 /* Apr26.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAFB75F154632800035D0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Apr26;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Battista Labs";
+			};
+			buildConfigurationList = 3CAFB762154632800035D0F7 /* Build configuration list for PBXProject "Apr26" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CAFB75D154632800035D0F7;
+			productRefGroup = 3CAFB769154632810035D0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAFB767154632810035D0F7 /* Apr26 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAFB766154632810035D0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAFB777154632810035D0F7 /* InfoPlist.strings in Resources */,
+				3CAFB78D15464FAE0035D0F7 /* sexy_knowit.mp3 in Resources */,
+				3CAFB79A1547A4A10035D0F7 /* challenge.mp3 in Resources */,
+				3CAFB79B1547A4A10035D0F7 /* developers.mp3 in Resources */,
+				3CAFB79C1547A4A10035D0F7 /* epic.mp3 in Resources */,
+				3CAFB79D1547A4A10035D0F7 /* epicsaxguy.mp3 in Resources */,
+				3CAFB79E1547A4A10035D0F7 /* inetporn.mp3 in Resources */,
+				3CAFB79F1547A4A10035D0F7 /* khaaan.mp3 in Resources */,
+				3CAFB7A01547A4A10035D0F7 /* macstartup.mp3 in Resources */,
+				3CAFB7A11547A4A10035D0F7 /* nooo.mp3 in Resources */,
+				3CAFB7A21547A4A10035D0F7 /* sadtrombone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAFB764154632810035D0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAFB779154632810035D0F7 /* main.m in Sources */,
+				3CAFB77D154632810035D0F7 /* Apr26AppDelegate.m in Sources */,
+				3CAFB78B15464DFB0035D0F7 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CAFB775154632810035D0F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAFB776154632810035D0F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAFB77E154632810035D0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CAFB77F154632810035D0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAFB781154632810035D0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apr26/Apr26-Prefix.pch";
+				INFOPLIST_FILE = "Apr26/Apr26-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CAFB782154632810035D0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apr26/Apr26-Prefix.pch";
+				INFOPLIST_FILE = "Apr26/Apr26-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAFB762154632800035D0F7 /* Build configuration list for PBXProject "Apr26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAFB77E154632810035D0F7 /* Debug */,
+				3CAFB77F154632810035D0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAFB780154632810035D0F7 /* Build configuration list for PBXNativeTarget "Apr26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAFB781154632810035D0F7 /* Debug */,
+				3CAFB782154632810035D0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAFB75F154632800035D0F7 /* Project object */;
+}
